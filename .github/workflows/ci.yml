@@ -49,7 +49,7 @@ jobs:
       #     restore-keys: ${{ runner.os }}-${{ matrix.scheme }}-spm-
 
       - name: Build
-        uses: nick-fields/retry@14672906e672a08bd6eeb15720e9ed3ce869cdd4 # v2
+        uses: nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60 # v4
         with:
           max_attempts: 3
           retry_on: error
